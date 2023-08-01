@@ -1,0 +1,233 @@
+*{
+    font-family: 'open sans', sans-serif;
+    margin:0;
+     padding:0;
+    box-sizing: border-box;
+    outline: none;
+     border:none;
+    text-decoration: none;
+ }
+ 
+ .container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+ }
+ 
+ .container .content{
+    text-align:center;
+ }
+ 
+ .container .content h3{
+    font-size: 30px;
+    color:black;
+ }
+ 
+ .container .content h3 span{
+    background: orchid;
+    color:whitesmoke;
+    border-radius: 5px;
+    padding:0 15px;
+ }
+ 
+ .container .content h1{
+    font-size: 50px;
+    color:black;
+ }
+ 
+ .container .content h1 span{
+    color:orchid;
+ }
+ 
+ .container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+ }
+ 
+ .container .content .btn{
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 20px;
+    background:black;
+    color:whitesmoke;
+    border-radius: 30px;
+    margin:0 5px;
+    text-transform: capitalize;
+ }
+ 
+ .container .content .btn:hover{
+    background: orchid;
+ }
+ 
+ .form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    background:whitesmoke;
+    height: 50px;
+ }
+ 
+.form-container form{
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: whitesmoke;
+    text-align: center;
+    width: 500px;
+ }
+ 
+ .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:black;
+ }
+ 
+ .form-container form input,form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background:whitesmoke;
+    border-radius: 5px;
+ }
+ 
+ .form-container form select option{
+    background:whitesmoke;
+ }
+ 
+ .form-container form .form-btn{
+    background: rgb(154, 250, 252);
+    color:orchid;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .form-container form .form-btn:hover{
+    background:orchid;
+    color:whitesmoke;
+ }
+ 
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:black;
+ }
+ 
+ .form-container form p a{
+    color:orchid;
+ }
+ 
+ .form-container form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: orchid;
+    color:whitesmoke;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 90px;
+ background: #2980b9;
+ box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: #2980b9;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color:whitesmoke;
+  font-size: 27px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 35px;
+}
+nav .navbar .menu{
+  display: flex;
+  
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a{
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 10px;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+#Home{
+  background: #fff;
+  background-image: url(home.png);
+  background-size: cover;
+  background-position: center;
+}
+#About{
+  background: #f2f2f2;
+  background-image: url(about.png);
+  background-size: cover;
+  background-position: center;
+}
+#Services{
+  background: #e6e6e6;
+  background-image: url(services.png);
+  background-size: cover;
+  background-position: center;
+}
+#Contact{
+  background: #f2f2f2;
+  background-image: url(1.png);
+  background-size: cover;
+  background-position: center;
+}
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color:white;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+a.menu,a:hover{
+    background:orchid;
+    transition: .5s;
+    border-radius: ;
+}
+.hello{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    width: 90px;
+    margin:15px;
+}
